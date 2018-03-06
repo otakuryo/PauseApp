@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp">
+        <TextView
+            android:id="@+id/list_group_title"
+            android:layout_width="fill_parent"
+            android:layout_height="49dp"
+            android:divider="#b6b6b6"
+            android:dividerHeight="0.5dp"
+            android:footerDividersEnabled="false"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textColor="@android:color/black"
+            android:paddingTop="13dp"
+            android:textSize="13dp"
+            android:paddingBottom="13dp"
+            android:background="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/playlistDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/star_big_off"/>
+    </RelativeLayout>
+
+    <!-- android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft" -->
+</LinearLayout>

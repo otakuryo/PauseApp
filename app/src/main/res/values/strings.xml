@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PauseApp</string>
+    <string name="tab_text_1">PLAYLIST</string>
+    <string name="tab_text_2">SONGS</string>
+    <string name="tab_text_3">ARTIST</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_4">ALBUM</string>
+    <string name="tab_text_5">SETTING</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_player_base">PlayerBase</string>
+    <string name="title_activity_settings_server_manager">SettingsServerManager</string>
+    <string name="action_search">OwO</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+</resources>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.otakuryo.pauseapp.AlbumFragment">
+
+    <ExpandableListView
+        android:id="@+id/expandable_list_album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+        android:divider="#919191"
+        android:dividerHeight="1dp">
+        <!-- android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft" -->
+    </ExpandableListView>
+
+</FrameLayout>

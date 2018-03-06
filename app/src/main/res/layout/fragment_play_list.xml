@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.otakuryo.pauseapp.PlayListFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_action_down"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-15dp"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/srlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PlayListActivity">
+
+        <ExpandableListView
+            android:id="@+id/expandable_list_artist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+            android:divider="#919191"
+            android:dividerHeight="1dp">
+        </ExpandableListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_playlist"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_add" />
+
+</FrameLayout>
